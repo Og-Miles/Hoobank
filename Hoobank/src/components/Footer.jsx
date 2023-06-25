@@ -15,7 +15,8 @@ const Footer = () => (
           <button type="button" className="bg-blue-gradient py-4 px-6 font-poppins font-medium outline-none ">Send</button>
           </div>
         </div>
-
+        
+        {/* Mapping through Link names */}
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
             <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
