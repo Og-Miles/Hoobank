@@ -36,6 +36,7 @@ const Business = () => {
             <FeatureCard key={feature.id} {...feature} index={index}  />
           ))}
         </div>
+        
     </section >
   )
 }
